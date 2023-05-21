@@ -10,7 +10,7 @@ class Solution:
 
 
 
-# O(n^2) Solution
+# O(n^2) Solution 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         flag = 1
