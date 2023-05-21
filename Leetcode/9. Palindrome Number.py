@@ -23,3 +23,15 @@ class Solution:
 
         return False
 
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        y = x
+        d = 0
+        while y > 0:
+            d = d * 10
+            d = d + y%10
+            y = y//10
+
+        return d == x
+
