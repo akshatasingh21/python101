@@ -16,7 +16,5 @@ class Solution:
             if "R" in m[i] and "G" in m[i] and "B" in m[i]:
                 cnt = cnt + 1
         
-
-
         print(m)
         return cnt
